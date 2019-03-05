@@ -1,4 +1,4 @@
-# libft
+# Libft
 
 First 42-school project : recoding a 'libft.a' library, identical to libc for the first part and following instructions for the second.
 ____
@@ -111,7 +111,7 @@ ____
 > Displays int 'n' on file descriptor 'fd'
 ____
 
-## Partie bonus
+## Bonus part
 
 #### ft_lstnew
 > Allocates memory wih 'malloc(3)' and returns a new link. The new link fields 'content' and 'content_size' are initialized by function parameters copy; ff parameter 'content' is null, fields 'content' and 'content_size' are initialized to 'NULL' and '0' even if 'content_size' parameter isn't null; 'next' field is initialized to 'NULL'; if allocating fails, returns 'NULL'
@@ -132,7 +132,7 @@ ____
 > Goes through 'lst' list, applies function 'f' to every link and creates a new list allocated with 'malloc(3)' resulting from the successive applications;  if allocating fails, returns 'NULL'
 ____
 
-## Partie bonus perso
+## Personal bonus part
 
 ### ft_strrev
 > Returns the reversed string in parameter
